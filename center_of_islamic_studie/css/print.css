@@ -1,0 +1,61 @@
+/*body {
+	font-family: Georgia, serif;
+	background: none;
+	color: black;
+}
+#container-one {
+	width: 100%;
+	margin: 0; padding: 0;
+	background: none;
+}
+.foot, .navbar, .navbar-default, .top_head, .header-nav, .img-stretch, {
+	display: none;
+}
+.entry a:after {
+	content: " [" attr(href) "] ";
+}
+#printed-article {
+	border: 1px solid #666;
+	padding: 10px;
+}*/
+@media print {
+    body {
+        margin: 0;
+        padding: 0;
+        line-height: 1.4em;
+        word-spacing: 1px;
+        letter-spacing: 0.2px;
+        font: 20px Arial, Helvetica,"Lucida Grande", serif;
+        color: #000;
+        font-size: 25px;
+    }
+    
+    .foot, .navbar, .navbar-default, .top_head, .header-nav, .img-stretch, header, a{
+        display: none;
+    }
+
+  /*  #print-btn, #update-btn, #units {
+        display: none;
+    }
+
+    #nav-left {
+        display: none;
+    }
+
+    #report-container {
+        visibility: visible;
+    }
+
+    .well .span12{
+        width: 100%;
+        visibility: visible;
+    }
+
+    .navbar {
+        display: none;
+    }
+
+    .sidebar-nav {
+        display: none;
+    }*/
+}

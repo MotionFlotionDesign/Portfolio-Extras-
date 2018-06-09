@@ -1,0 +1,584 @@
+@import url(http://fonts.googleapis.com/css?family=Lato);
+html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Lato', sans-serif;
+}
+/*------------------------- MAIN PAGE -------------------------*/
+
+body {
+  background-color: #fff;
+  background-position: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr.style-two {
+  border: 0;
+  height: 1px;
+  background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -moz-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -ms-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+p,h1,h2,h3,h4,h5,h6 {
+    font-family: 'Lato', sans-serif;
+}
+
+h2,
+h3 {
+  color: #2c6b9e;
+}
+
+a:link{
+  text-decoration:none;
+}
+
+/*------------------------- HEADER -------------------------*/
+
+.box { /*--- Logo Button---*/
+  width: 300px;
+  height: 100px;
+   position: absolute;
+   right: 650px;
+}
+.header-nav { /*--- black box navigation inside header ---*/
+  background-color: #000000; /*Change background color*/
+  float: right;
+  width: 600px;
+  height: 50px;
+  display: inline-block;
+  color: #a5a5a5; /*Change Font color*/
+  opacity: 0.4;
+  position: absolute;
+  right: 50px;
+  padding-top: 10px;
+}
+
+.header-nav ul li {
+  display: inline;
+  padding: 20px;
+  padding-top: 10px;
+  list-style: none;
+}
+
+.header-nav a {
+  color: #bfd1d6;
+}
+/*------------------------- CONTAINER ------------------------*/
+
+.container-one {
+  /*padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;*/
+}
+
+.top_head {
+  padding-left: 0px
+}
+
+
+.container-page {
+  /*padding-right: 15px;   
+  padding-left: 15px; */  
+  /*margin-right: auto;
+  margin-left: auto;*/
+}
+
+
+.container { 
+  min-height: 500px;
+  background-color: #ffffff;
+  padding: 0px
+}
+
+/*---------------------------- SIDE-BAR -------------------------------*/
+
+.side-bar {
+  /*width: 350px;*/
+  height: 100%;
+  background-color: #1f2c3c;
+  background: #3f4c6b; /* Old browsers */
+  background: #1c2a38; /* Old browsers */
+background: -moz-linear-gradient(left,  #1c2a38 0%, #1c2a38 4%, #2b4057 10%, #2b4057 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, right top, color-stop(0%,#1c2a38), color-stop(4%,#1c2a38), color-stop(10%,#2b4057), color-stop(100%,#2b4057)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(left,  #1c2a38 0%,#1c2a38 4%,#2b4057 10%,#2b4057 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(left,  #1c2a38 0%,#1c2a38 4%,#2b4057 10%,#2b4057 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(left,  #1c2a38 0%,#1c2a38 4%,#2b4057 10%,#2b4057 100%); /* IE10+ */
+background: linear-gradient(to right,  #1c2a38 0%,#1c2a38 4%,#2b4057 10%,#2b4057 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c2a38', endColorstr='#2b4057',GradientType=1 ); /* IE6-9 */
+
+  float: left;
+  bottom: 0px;
+  margin-top: 10px;
+}
+.side-bar section {
+  width: 100%;
+  height: 40px;
+  /*background-color: #2b3f57;
+*/
+  /*left: 10px;*/
+}
+.side-bar a { /*Change Font color in SIDEBAR*/
+  color: #bfd1d6;
+}
+.side-bar a:hover { /*Change Font color in SIDEBAR*/
+  color: #1f2c3c;
+}
+.side-bar li {
+  line-height: 25px;
+  list-style: none;
+}
+.icon {/*--- ICONS ----*/
+  width: 350px;
+  height: 100px;
+  background-color: #282829;
+}
+.icon i { 
+  font-size: 20px;
+}
+.icon ul li {
+  list-style: none;
+  display: inline;
+  /*font: 16px;*/
+  padding-left: 0px;
+}
+
+i {
+  font-size: 24px;
+  padding-top: 10px;
+  color: white;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+/*---------------------------- HOME PAGE (INDEX.PHP)-------------------------------*/
+
+/*------------------ Image Slider ------------------*/
+#slideshow img {
+  /*width: 1140px;*/
+}
+.mov_img p { /* Black Description box in your Image Slider */
+  float: right;
+  left: 630px;
+  top: 185px;
+  width: 400px;
+  height: 125px;
+  color: #d2d2d2; /*Change Font color*/
+  background-color: black; /*Change background color*/
+  opacity: 0.6;
+  position: absolute;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+
+/*-------------- The headers for your categories --------------*/
+.light-blue {
+  background-color: #223144; /*Change background color*/
+  color: #8fdce2; /*Change Font color*/
+  margin-top: 0px;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+.dark-blue {
+  background-color: #202d3e; /*Change background color*/
+  color: #a4d1d4; /*Change Font color*/
+  margin-top: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+.violet {
+  background-color: #5b3f56; /*Change background color*/
+  color: #d2d2d2; /*Change Font  color*/
+  margin-top: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+.grey {
+  background-color: #4d4d4f; /*Change background color*/
+  color: #ebebed; /*Change Font  color*/
+  margin-top: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+.blue {
+  background-color: #3f8a8f; /*Change background color*/
+  color: #fcffff; /*Change Font color*/
+  margin-top: 0px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+}
+
+<!-- SECTION: Latest Topic -->
+
+.one {
+  background-color: #ebecee; /*Change background color*/
+}
+div.one {
+  background-color: #ebecee; 
+}
+.one li {
+  list-style: none;
+}
+.one p {
+  padding-top: 45px;
+  padding-left: 300px;
+}
+.one a {
+  color: #1f2d3d;
+}
+
+<!-- SECTION: The Original of Islam  -->
+
+.two {
+  background-color: #ebecee; /*Change background color*/
+}
+div.two {
+  background-color: #ebecee; 
+}
+.two li {
+  list-style: none;
+}
+.two p {
+  padding-top: 45px;
+  padding-left: 290px;
+}
+.two a {
+  color: #1f2d3d;
+}
+
+<!-- SECTION: Judeo Christan Title --> 
+
+.three {
+  background-color: #ebecee; /*Change background color*/
+}
+div.three {
+  background-color: #ebecee; 
+}
+.three li {
+  list-style: none;
+}
+.three p {
+  padding-top: 45px;
+  padding-left: 300px;
+}
+.three a {
+  color: #1f2d3d;
+}
+
+<!-- SECTION: Islam Contribution -->
+
+.four {
+  background-color: #ebecee; /*Change background color*/
+}
+div.four {
+  background-color: #ebecee; 
+}
+.four p {
+  padding-top: 45px;
+  padding-left: 300px;
+}
+.stack li {
+  list-style: none;
+}
+ul.stack {
+  display: inline-block;
+  padding-left: 10px;
+}
+.four a {
+  color: #1f2d3d;
+}
+
+<!-- SECTION: Latest Event --> 
+
+.side-bar-two {  
+  background-color: #ebecee; /*Change background color*/
+}
+div.side-bar-two {
+  background-color: #ebecee; 
+}
+.side-bar-two li {
+  list-style: none;
+}
+.side-bar-two p {
+  padding-top: 150px;
+  padding-left: 180px;
+}
+.side-bar-two a {
+  color: #1f2d3d;
+}
+
+ <!-- SECTION: Case Study -->
+
+.six {
+  
+  background-color: #c1c2c2; /*Change background color*/
+}
+
+div.six {
+  background-color: #c1c2c2; 
+}
+.six img {
+ /* width: 294px;*/
+}
+
+<!-- SECTION: Famous Studies --> 
+
+.seven {
+  background-color: #ebecee; /*Change background color*/
+}
+div.seven {
+  background-color: #ebecee; 
+}
+.seven li {
+  list-style: none;
+}
+.seven p {
+  padding-top: 108px;
+  padding-left: 160px;
+}
+.seven a {
+  color: #1f2d3d;
+}
+
+<!-- SECTION: Famous Quotes -->
+
+.eight {
+  background-color: #c1c2c2; /*Change background color*/
+  height: 335px;
+  /*padding-bottom: 30px;
+  padding-top: 30px;*/
+}
+div.eight {
+  background-color: #c1c2c2; 
+}
+.eight img {
+  padding-bottom: 50px;
+  padding-top: 30px;
+
+}
+
+/*---------------------- EVERTHING IN MENU FOLDER -----------------------*/
+.author {
+  float: right;
+}
+
+/*------------ Top Navigation Bar ------------*/
+div#bs-example-navbar-collapse-1.collapse.navbar-collapse {
+  background-color: #5b3e56;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #bfd1d6;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #5C0731;
+  color: #bfd1d6;
+}
+
+/*--- EMPTY CONTAINERS -----*/
+.long-text {
+}
+.long-text-body {
+}
+
+/*---------- BlockQuote (DONT TOUCH) ------*/
+
+blockquote {
+  background: white;
+  border-left: 10px solid white;
+  margin: 1.5em 10px;
+  padding: 0.5em 10px;
+  quotes: "\201C""\201D""\2018""\2019";
+  color: #5b3e56; /*font color change*/
+}
+blockquote:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  margin-right: 0.25em;
+  vertical-align: -0.4em;
+}
+blockquote p {
+  display: inline;
+}
+
+/*----------------- Blue-bar on top of your articles ---------------*/
+
+.topic { /*--- Blue-bar in your article ---*/
+  /*width: 100%;*/
+  
+  height: 70px;
+  background-color: #202d3d;
+  /*margin-left: 10px;*/
+}
+.featured { /*--- Blue-bar in your article ---*/
+  width: 600px;
+  height: 70px;
+  padding-left: 30px;
+  padding-top: -50px;
+}
+.featured a {
+  color: #bfd1d6;
+}
+.g-icon i{ /*--- Blue-bar in your article ---*/
+  width: 50px;
+  height: 70px;
+  float: right;
+  font-size: 35px;
+  padding-top: 15px;
+  margin-right: 10px;
+}
+
+
+
+/*------------------------- IMAGE PLACE HOLDER -----------------------*/
+
+/*  1. By DEFAULT your placeholders, .place-holder-left 
+                                     .place-holder-right
+       width: 300px;  height: 300px; If your images has a larger width or height
+       please change the place holder SIZE for the images could fit without error
+       it's important to get you iamges to be the same size.  
+    
+    2. By DEFAULT all Images, in .place-holder-left img
+                                 .place-holder-right img
+                                 .islam-img
+      width: 200px;  height: 300px; you could alway change that or disable it 
+
+    2. If you disable (width & height) in .place-holder-left img
+                                          .place-holder-right img
+                                          .islam-img
+        make sure your Images are the proper size to fit the place holder */
+
+.place-holder-left {
+  /*-- This is the Image Place Holder SIZE --*/
+  
+  width: 300px;
+   width: 300px;
+  float: left;
+  margin-right: 30px;
+  clear: right;
+}
+.place-holder-right {
+  /*-- This is the Image Place Holder SIZE --*/
+  
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-left: 30px;
+  clear: left;
+}
+/**/
+.place-holder-left img { /*--image is place left--*/
+  /*These are the images within the placaholder*/
+  width: 200px;
+  height: 300px;
+}
+.place-holder-right img { /*--image is place right--*/
+  /*These are the images within the placaholder*/
+  width: 200px;
+  height: 300px;
+}
+.islam-img { /*--For slit images only for all articles in Islam Contribution --*/
+  width: 200px;
+  height: 300px;
+  margin-bottom: 5px;
+}
+ul.links li {
+  list-style: none;
+}
+
+thead {
+  width: 100%;
+  text-align: center;
+}
+
+.place-holder-left-two {/*ignore*/
+  
+  width: 300px;
+  height: 360px;
+  float: left;
+  margin-right: 30px;
+  clear: right;
+}
+.place-holder-right-two {/*ignore*/
+
+  width: 300px;
+  height: 360px;
+  float: right;
+  margin-left: 30px;
+  clear: left;
+}
+.img-section {/*ignore*/
+
+  width: 100%;
+  height: 300px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.img-section p {/*ignore*/
+  text-align: center;
+  padding-bottom: 150px
+}
+.img-section h3 {/*ignore*/
+  text-align: center;
+  padding-top: 125px
+}
+.minimize {/*ignore*/
+
+}
+
+.nolist {/*ignore*/
+  list-style: none;
+  line-height: 1px;
+}
+.center {/*ignore*/
+  text-align: center;
+}
+
+/* for poems, address, etc.*/
+/* Gradient transparent - color - transparent */
+
+/*-------------------------------- Footer ----------------------------------*/
+
+.foot {
+  background-color: #323232;
+  width: 100%;
+  height: 50px;
+  clear: both;
+  margin-top: 100px;
+}
+.footer-nav {
+  width: 600px;
+  height: 50px;
+  float: left;
+  background-color: #323232;
+}
+.footer-nav li {
+  display: inline-block;
+  padding-left: 30px;
+  padding-top: 15px;
+  color: #a5a5a5;
+}
+.foot p {
+  float: right;
+  padding-top: 15px;
+  padding-right: 15px;
+  color: #a5a5a5;
+}
+.foot a {
+  color: #bfd1d6;
+}
+

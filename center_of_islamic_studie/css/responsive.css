@@ -1,0 +1,261 @@
+@media (min-width: 768px) { 
+  .container-page {
+    width: 750px;
+  }
+  .top_head .img-stretch {
+    width: 890px;
+  }
+  .topic {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) { 
+  .container-page {
+    width: 970px;
+  }
+  .top_head .img-stretch {
+    width: 890px;
+  }
+  .topic {
+    width: 970px;
+  }
+}
+@media (min-width: 1024px) {
+  
+
+
+
+}
+@media (min-width: 1200px) { 
+
+/*----- INDEX.PHP | EVERYTHING IN MORE TOPIC FOLDER-----*/
+  .container {
+    width: 972px;
+    margin-left: 300px;
+  }
+  .side-bar {
+    width: 300px;
+  }
+  .sidebar-line{
+    width: 240px;
+  }
+  .top_head .img-stretch {
+    width: 1250px;
+  }
+  #slideshow img{
+    width: 940px;
+  }
+  #slideshow p {
+  left: 530px;
+  }
+/*----- INDEX.PHP -----*/
+  
+  .col-md-6 { /*-- Latest Topic --*/
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  .two{ /*-- The Original of Islam --*/
+
+  }
+  .three{ /*-- Judeo Christan Title --*/
+
+  }
+  .four{ /*-- Islam Contribution --*/
+
+  }
+  .five{ /*--   --*/
+
+  }
+  img.tbVideo {
+    padding-right: 40px;
+  }
+  .six{ /*-- Case Study --*/
+    
+  }
+  .six img { /*-- Case Study --*/
+    /*Change Font color*/
+  }
+  .seven{ /*--   --*/
+
+  }
+  .eight{ /*-- Famous Quotes --*/
+    
+  }
+  .eight img { /*-- Famous Quotes --*/
+    /*Change Font color*/
+  }
+  
+  .topic {
+    width: 940px;
+    margin-left: 10px;
+  }
+  nav.header-nav {
+    right: -250px;
+  }
+  a.box {
+    left: -650px;
+  }
+}
+
+@media (min-width: 1280px) { 
+  .container-page {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+@media (min-width: 1366px) { 
+  .container-page {
+    margin-left: 40px;
+    margin-right: 100px;
+  }
+}
+@media (min-width: 1440px) { 
+  .container-page {
+    margin-left: 80px;
+    margin-right: 100px;
+  }
+}
+@media (min-width: 1680px) { 
+  .container-page {
+    margin-left: 210px;
+    margin-right: 200px;
+  }
+}
+@media (min-width: 1920px) { 
+  .container-page {
+    margin-left: 330px;
+    margin-right: 200px;
+  }
+}
+
+
+/*------------ ARTICLE PAGE -------------------*/
+
+/*@media (min-width: 480px) {
+  .container {
+    margin-left: 0px;
+  }
+}*/
+/*@media (min-width: 480px) {
+  .sidebar {
+    width: 0px;
+  }
+  .icon {
+    width: 0px;
+  }
+}
+*/
+
+
+/*@media (min-width: 768px) {
+  .container-one {
+    width: 750px;
+    margin-left: 0px;
+  }
+  .top_head .img-stretch {
+    width: 1150px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container-one {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container-one {
+    width: 1170px;
+    margin-left: 0px;
+  }
+  .navbar-nav>li>a {
+    padding: 10px;
+  }
+  .top_head .img-stretch {
+    width: 1100px;
+  }
+}
+
+@media (min-width: 1366px) {
+  .container-one {
+    width: 1280px;
+  }
+  .top_head .img-stretch {
+    width: 1260px;
+  }
+  .col-md-12 .topic {
+    width: 1140px;
+  }
+}
+
+@media (min-width: 1590px) {
+  .container-one {
+    width: 1360px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .top_head .img-stretch {
+    width: 1200px;
+  }
+  .col-md-12 .topic {
+    width: 1505px;
+  }
+}
+
+@media (min-width: 1620px) {
+  .container-one {
+    width: 1400px;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  .top_head .img-stretch {
+    width: 1505px;
+  }
+  .col-md-12 .topic {
+    width: 1505px;
+  }
+}
+
+@media (min-width: 1720px) {
+  .container-one {
+    width: 1460px;
+    margin-left: 100px;
+    margin-right: 100px;
+  }
+  .top_head .img-stretch {
+    width: 1505px;
+  }
+  .col-md-12 .topic {
+    width: 1505px;
+  }
+}
+
+@media (min-width: 1820px) {
+  .container-one {
+    width: 1500px;
+    margin-left: 150px;
+    margin-right: 200px;
+  }
+  .top_head .img-stretch {
+    width: 1505px;
+  }
+  .col-md-12 .topic {
+    width: 1505px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container-one {
+    width: 1560px;
+    margin-left: 190px;
+    margin-right: 300px;
+  }
+  .top_head .img-stretch {
+    width: 1765px;
+  }
+  .col-md-12 .topic {
+    width: 1505px;
+
+  }
+}
